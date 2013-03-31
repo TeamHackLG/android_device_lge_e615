@@ -9,14 +9,14 @@ key 8     7
 key 9     8
 key 10    9
 key 11    0
-key 158   BACK              VIRTUAL
+key 158   BACK              WAKE_DROPPED
 key 230   SOFT_RIGHT        WAKE
 key 60    SOFT_RIGHT        WAKE
 key 107   ENDCALL           WAKE_DROPPED
 key 62    ENDCALL           WAKE_DROPPED
-key 229   MENU              VIRTUAL
-key 139   MENU              VIRTUAL
-key 59    MENU              VIRTUAL
+key 229   MENU              WAKE_DROPPED
+key 139   MENU              WAKE_DROPPED
+key 59    MENU              WAKE_DROPPED
 key 127   SEARCH            WAKE_DROPPED
 key 217   SEARCH            WAKE_DROPPED
 key 228   POUND
@@ -33,6 +33,7 @@ key 115   VOLUME_UP         WAKE
 key 114   VOLUME_DOWN       WAKE
 key 116   POWER             WAKE
 key 212   CAMERA
+key 211   KEYCODE_SIM_SWITCH    WAKE_DROPPED
 key 172   HOME              WAKE_DROPPED
 key 16    Q
 key 17    W
