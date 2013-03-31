@@ -1,5 +1,5 @@
 lib/hw/lights.msm7x27a.so
-lib/hw/sensors.m4.so
+lib/hw/sensors.m4ds.so
 bin/sensord
 lib/egl/libGLESv2_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so
@@ -7,8 +7,6 @@ lib/egl/libEGL_adreno200.so
 lib/egl/eglsubAndroid.so
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
-lib/libC2D2.so
-lib/libc2d2_z180.so
 lib/libOpenVG.so
 lib/libgsl.so
 lib/libsc-a2xx.so
@@ -79,6 +77,4 @@ lib/libOmxAdpcmDec.so
 lib/libOmxAacEnc.so
 lib/libOmxAacDec.so
 bin/hci_qcomm_init
-lib/hw/nfc.default.so
-vendor/firmware/libpn544_fw.so
 lib/libaudioeq.so
