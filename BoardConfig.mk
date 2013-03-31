@@ -4,7 +4,7 @@ include device/lge/msm7x27a-common/BoardConfigCommon.mk
 -include vendor/lge/e615/BoardConfigVendor.mk
 TARGET_BOOTLOADER_BOARD_NAME := e615
 
-BOARD_KERNEL_CMDLINE := androidboot.hardware=m4ds lge.signed_image=false
+BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.hardware=m4ds lge.signed_image=false
 
 TARGET_KERNEL_CONFIG := cyanogenmod_m4ds_defconfig
 TARGET_PREBUILT_KERNEL := device/lge/e615/kernel
