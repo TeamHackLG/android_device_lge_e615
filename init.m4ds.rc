@@ -17,3 +17,11 @@ on boot
     chown system system /sys/class/input/input3/eeprom_writing
     chown system system /sys/class/input/input3/softreset
     chown system system /sys/devices/platform/i2c-gpio.4/i2c-4/4-0044/enable
+
+service ril-daemon1 /system/bin/rild -c 1
+    class late_start
+    socket rild1 stream 660 root radio
+    socket rild-debug1 stream 660 radio system
+    user root
+    disabled
+    group radio cache inet misc audio sdcard_rw qcom_oncrpc diag
